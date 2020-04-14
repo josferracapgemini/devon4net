@@ -1,6 +1,9 @@
 ﻿{
   "author": "Capgemini Valencia ",
-  "classifications": ["devonfw", "Devon4Net"],
+  "classifications": [
+    "devonfw",
+    "Devon4Net"
+  ],
   "description": "Devon4Net API solution template for .net core 3.0",
   "name": "Devon4Net API solution template",
   "identity": "Devon4Net.WebAPI",
@@ -11,5 +14,15 @@
   },
   "shortName": "Devon4NetAPI",
   "sourceName": "Devon4NetAPI",
-  "guids": []
+  "guids": [],
+  "symbols": {
+    "ProjectName": {
+      "type": "parameter",
+      "datatype": "string",
+      "description": "Renames files containing 'BaseNameProject'",
+      "FileRename": "BaseNameProject",
+      "replaces": "BaseNameProject",
+      "defaultValue": "Devon4Net"
+    }
+  }
 }

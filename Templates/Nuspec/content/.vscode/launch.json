@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Devon4Net.Application.WebAPI/bin/Debug/netcoreapp3.1/Devon4Net.Application.WebAPI.dll",
+            "program": "${workspaceFolder}/BaseNameProject.Application.WebAPI/bin/Debug/netcoreapp3.1/BaseNameProject.Application.WebAPI.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Devon4Net.Application.WebAPI",
+            "cwd": "${workspaceFolder}/BaseNameProject.Application.WebAPI",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
